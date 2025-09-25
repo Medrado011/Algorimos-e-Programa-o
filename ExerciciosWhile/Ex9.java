@@ -8,7 +8,7 @@ public class Ex9 {
         do {
             System.out.print("Insira o código do produto ou aperte 0 para encerrar: ");
             codigo = e.nextInt();
-            if (codigo == 0) break; // condição de saída
+            if (codigo == 0) break; 
             System.out.print("Insira a quantidade: ");
             quantidade = e.nextInt();
             double preco = 0.0;
@@ -51,3 +51,4 @@ public class Ex9 {
         e.close();
     }
 }
+
